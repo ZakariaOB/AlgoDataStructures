@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Main\\1_AlgoDts.Main.csproj": {}
+    "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Main\\1_AlgoDts.Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Main\\1_AlgoDts.Main.csproj": {
+    "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Main\\1_AlgoDts.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Main\\1_AlgoDts.Main.csproj",
+        "projectUniqueName": "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Main\\1_AlgoDts.Main.csproj",
         "projectName": "1_AlgoDts.Main",
-        "projectPath": "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Main\\1_AlgoDts.Main.csproj",
+        "projectPath": "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Main\\1_AlgoDts.Main.csproj",
         "packagesPath": "C:\\Users\\zboukhris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Main\\obj\\",
+        "outputPath": "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,7 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/sgsglobaldev/_packaging/SGS_Framework/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -49,10 +50,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

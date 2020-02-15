@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Implementations\\2_AlgoDts.Implementations.csproj": {}
+    "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Implementations\\2_AlgoDts.Implementations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Implementations\\2_AlgoDts.Implementations.csproj": {
+    "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Implementations\\2_AlgoDts.Implementations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Implementations\\2_AlgoDts.Implementations.csproj",
+        "projectUniqueName": "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Implementations\\2_AlgoDts.Implementations.csproj",
         "projectName": "2_AlgoDts.Implementations",
-        "projectPath": "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Implementations\\2_AlgoDts.Implementations.csproj",
+        "projectPath": "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Implementations\\2_AlgoDts.Implementations.csproj",
         "packagesPath": "C:\\Users\\zboukhris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zboukhris\\Desktop\\Perso\\GitHub\\ALGO_DATASTRUCTURES\\AlgoDts\\AlgoDts.Implementations\\obj\\",
+        "outputPath": "C:\\Users\\zboukhris\\Desktop\\Perso\\AlgoDts\\AlgoDataStructures\\AlgoDts\\AlgoDts.Implementations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -25,7 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/sgsglobaldev/_packaging/SGS_Framework/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {

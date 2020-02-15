@@ -24,7 +24,7 @@ namespace AlgoDts.Implementations.CodeWars
             {
                 if (elements.ContainsKey(el))
                 {
-                    elements[el]
+                    return 1;
                 }
             }
 

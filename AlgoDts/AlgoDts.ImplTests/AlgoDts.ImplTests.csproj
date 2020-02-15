@@ -5,12 +5,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3458990F-DEB3-4FEA-B5A7-9FB5089F16ED}</ProjectGuid>
+    <ProjectGuid>{9B2057C1-8F78-4F5D-A21C-EC37DFF7CD25}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AlgoDts.Test</RootNamespace>
-    <AssemblyName>AlgoDts.Test</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>AlgoDts.ImplTests</RootNamespace>
+    <AssemblyName>AlgoDts.ImplTests</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
@@ -20,6 +20,7 @@
     <TestProjectType>UnitTest</TestProjectType>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,18 +50,20 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tests\CodeWars\KprimeTest.cs" />
+    <Compile Include="CodeWars\BraceTest.cs" />
+    <Compile Include="CodeWars\KPrimeKPuzzleTest.cs" />
+    <Compile Include="CodeWars\MakeComplement_Test.cs" />
+    <Compile Include="CodeWars\WhoLikeTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\AlgoDts.Implementations\2_AlgoDts.Implementations.csproj">
-      <Project>{28e91870-030d-46da-b7e0-7698fee524d9}</Project>
-      <Name>2_AlgoDts.Implementations</Name>
+    <ProjectReference Include="..\AlgoDts.ImplemNet\AlgoDts.ImplemNet.csproj">
+      <Project>{ea2e2cb8-3509-48d9-88bb-3173ed7f034d}</Project>
+      <Name>AlgoDts.ImplemNet</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

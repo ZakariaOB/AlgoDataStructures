@@ -1,0 +1,55 @@
+﻿function countKprimes(k, start, nd) {
+    var kFactors = [];
+    for (var i = start; i <= nd; i++)
+    {
+        let v = 2;
+        var o = i;
+        var x = 0;
+        while (v <= Math.floor(Math.sqrt(o)))
+        {
+            while (o % v == 0)
+            {
+                o /= v;
+                x++;
+            }
+            v++;
+        }
+        if (o > 1) 
+        { 
+            x++; 
+        }
+        if (x == k)
+        {
+            kFactors.push(i);
+        }
+    }
+    return kFactors;
+}
+function puzzle(s) {
+    if (s == 0)
+      return 0;
+      
+    var onePrimes = countKprimes(1, 2, s);
+    var threePrimes = countKprimes(3, 8, s);
+    var sevenPrimes = countKprimes(7, 128, s);
+
+    var numberOfSolutions = 0;
+
+    for(var onePrime in onePrimes)
+    {
+        for(var threePrime in threePrimes)
+        {
+            for(var sevenPrime in sevenPrimes)
+            {
+                if ((onePrime + threePrime + sevenPrime) == s)
+                {
+                    numberOfSolutions++;
+                    break;
+                }
+            }
+        }
+    }
+
+
+    return numberOfSolutions;
+}
